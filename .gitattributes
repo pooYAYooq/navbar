@@ -1,0 +1,7 @@
+
+# This .gitattributes file ensures that all text files in the repository
+# are normalized to use LF (line feed) as the end-of-line character.
+# The 'text=auto' attribute automatically detects text files and normalizes
+# their line endings to LF when they are checked into the repository.
+* text=auto eol=lf
+
