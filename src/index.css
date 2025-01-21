@@ -302,7 +302,6 @@ nav {
   transform: rotate(90deg);
 }
 
-.links-container {}
 
 .links a {
   color: var(--grey-700);
@@ -318,4 +317,9 @@ nav {
   background: var(--primary-100);
   color: var(--primary-500);
   padding-left: 1.5rem;
+}
+
+.links-container {
+  overflow: hidden;
+  transition: var(--transition);
 }
