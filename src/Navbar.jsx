@@ -20,7 +20,7 @@ const Navbar = () => {
 
   const navStyle = {
     paddingBottom: showLinks ? '2rem' : '0px',
-  }
+  };
 
   return (
     <nav style={navStyle}>
@@ -47,6 +47,16 @@ const Navbar = () => {
             })}
           </ul>
         </div>
+        <ul className="social-icons">
+          {social.map((socialIcon) => {
+            const { id, url, icon } = socialIcon;
+            return (
+              <li key={id}>
+                <a href={url}>{icon}</a>
+              </li>
+            );
+          })}
+        </ul>
       </div>
     </nav>
   );
